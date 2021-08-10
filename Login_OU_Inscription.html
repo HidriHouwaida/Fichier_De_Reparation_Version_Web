@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html style="background: url(images/backgroundbeige.jpg);">
-    <head><title>Login Ou Inscription</title></head>
+    <head><title>Login Ou Inscription</title>
+    <script src="Login_OU_Inscription.js"></script>
+    </head>
     <body>
     <br><br><br>
     <text style="margin-left: 500px;font-size: 40px;color:#4169E1">   <strong>  Se Connecter    </strong></text>
      <br><br>
      <text style="margin-left: 500px;font-size: 40px">   <strong>  Créer Un Compte    </strong></text>
      <br><br><br><br><br>
-     <text style="margin-left: 400px;font-size: 25px;color: slategrey;"> <strong>   Nom De Client   </strong></text>
-     <input type="text" style="width:300px;height:40px;border-radius: 20px;margin-left: 20px;">
+     <text style="margin-left: 400px;font-size: 25px;color: slategrey;" > <strong>   Nom De Client   </strong></text>
+     <input type="text" style="width:300px;height:40px;border-radius: 20px;margin-left: 20px;" id="NomClient">
      <br><br><br>
      <text style="margin-left: 400px;font-size: 25px;color: slategrey;"> <strong>   Mot De Passe   </strong></text>
-     <input type="password" style="width:300px;height:40px;border-radius: 20px;margin-left: 40px;">
+     <input type="password" style="width:300px;height:40px;border-radius: 20px;margin-left: 40px;" id="MotDePasse">
      <br><br><br>
-     <text style="color:#4169E1;font-size: 20px;margin-left: 900px;">Mot De Passe Oublié</text>
+     <text style="color:#4169E1;font-size: 20px;margin-left: 900px;background-color: transparent;" onclick="MotDePasse()">Mot De Passe Oublié</text>
      <br><br><br>
-     <button style="background: #4169E1;color:white;margin-left: 620px;width:200px;height: 40px;border-radius: 5px;">  <strong> SE CONNECTER   </strong></button>
+     <button style="background: #4169E1;color:white;margin-left: 620px;width:200px;height: 40px;border-radius: 5px;" 
+    onclick="isEmpty()">  <strong> SE CONNECTER   </strong></button>
      <br><br><br>
-     <text style="color:#4169E1;font-size: 20px;margin-left: 650px;">Créer Un Compte</text>
+
+     <text style="color:#4169E1;font-size: 20px;margin-left: 650px;" onclick="Sign_Up()">Créer Un Compte</text>
      <br><br><br>
     </body>
 </html>
