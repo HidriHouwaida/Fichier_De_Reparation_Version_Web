@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html style="background: url(images/backgroundbeige.jpg);">
-    <head><title>Sign Up</title></head>
+    <head><title>Sign Up</title>
+    <script src="Sign_Up.js"></script>
+    </head>
     <body>
     <br><br><br>
     <text style="margin-left: 500px;font-size: 40px;">   <strong>  Se Connecter    </strong></text>
@@ -8,21 +10,21 @@
      <text style="margin-left: 500px;font-size: 40px;color:#4169E1;">   <strong>  Créer Un Compte    </strong></text>
      <br><br><br><br><br>
      <text style="margin-left: 400px;font-size: 25px;color: slategrey;"> <strong>   Nom De Client   </strong></text>
-     <input type="text" style="width:300px;height:40px;border-radius: 20px;margin-left: 20px;">
+     <input type="text" style="width:300px;height:40px;border-radius: 20px;margin-left: 20px;" id="Nom">
      <br><br><br>
      <text style="margin-left: 400px;font-size: 25px;color: slategrey;"> <strong>   Mot De Passe   </strong></text>
-     <input type="password" style="width:300px;height:40px;border-radius: 20px;margin-left: 40px;">
+     <input type="password" style="width:300px;height:40px;border-radius: 20px;margin-left: 40px;" id="MotDePasse">
      <br><br><br>
      <text style="margin-left: 400px;font-size: 25px;color: slategrey;"> <strong>   Adresse   </strong></text>
-     <input type="text" style="width:300px;height:40px;border-radius: 20px;margin-left: 100px;">
+     <input type="text" style="width:300px;height:40px;border-radius: 20px;margin-left: 100px;" id="Adresse">
      <br><br><br>
      <text style="margin-left: 400px;font-size: 25px;color: slategrey;"> <strong>   Nom De Société   </strong></text>
-     <input type="text" style="width:300px;height:40px;border-radius: 20px;margin-left: 20px;">
+     <input type="text" style="width:300px;height:40px;border-radius: 20px;margin-left: 20px;" id="Société">
      <br><br><br>
      <text style="margin-left: 400px;font-size: 25px;color: slategrey;"> <strong>   Téléphone De Société  </strong></text>
-     <input type="tel" style="width:300px;height:40px;border-radius: 20px;margin-left: 40px;">
+     <input type="tel" style="width:300px;height:40px;border-radius: 20px;margin-left: 40px;" id="Téléphone">
      <br><br><br>
-     <button style="background: #4169E1;color:white;margin-left: 470px;width:200px;height: 40px;border-radius: 10px;">  <strong> Créer   </strong></button>
-     <button style="background: #4169E1;color:white;width:200px;height: 40px;border-radius: 10px;margin-left: 80px;">  <strong> Vous Avez Déja Un Compte!  </strong></button>
+     <button style="background: #4169E1;color:white;margin-left: 470px;width:200px;height: 40px;border-radius: 10px;" onclick="creer()">  <strong> Créer   </strong></button>
+     <button style="background: #4169E1;color:white;width:200px;height: 40px;border-radius: 10px;margin-left: 80px;" onclick="Sign_In()">  <strong> Vous Avez Déja Un Compte!  </strong></button>
     </body>
 </html>
