@@ -21,5 +21,9 @@ function isEmpty()
         else if(document.getElementById('MotDePasse').value.length<6){
             alert('Longueur minimal de mot de passe 6! ')
         }
+        else 
+        {
+            window.open("Reclamation.html",'_self',false)
+        }
       
 }
