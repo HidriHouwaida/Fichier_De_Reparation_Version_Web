@@ -2,30 +2,32 @@
 <html style="background: url(images/backgroundbeige.jpg);">
 <head>
 <title>Information</title>
+<script src="Information.js"></script>
 </head>
 <body><image src="images/menu.png" style="width:100px;height:80px"></image>
 
 <div style="margin-left: 400px;">
     <text style="font-size: 30px;color:slategrey;">  <strong>    Date d'achat     </strong>              </text>
-<input type="date" style="width:300px;height:50px;border-radius: 15px;margin-left: 50px;" >
+<input type="date" style="width:300px;height:50px;border-radius: 15px;margin-left: 50px;" id="achat">
 </div>
 <div style="margin-left: 400px;margin-top: 30px;">
     <text style="font-size: 30px;color:slategrey;">  <strong>    Revendeur     </strong>              </text>
-<input type="text" style="width:300px;height:50px;border-radius: 15px;margin-left: 70px;" >
+<input type="text" style="width:300px;height:50px;border-radius: 15px;margin-left: 70px;" id="Revendeur">
 </div>
 <div style="margin-left: 400px;margin-top: 30px;">
     <text style="font-size: 30px;color:slategrey;">  <strong>    Panne Client     </strong>              </text>
-<input type="text" style="width:300px;height:50px;border-radius: 15px;margin-left: 50px;" >
+<input type="text" style="width:300px;height:50px;border-radius: 15px;margin-left: 50px;" id="Panne" >
 </div>
 <div style="margin-left: 400px;margin-top: 30px;">
     <text style="font-size: 30px;color:slategrey;">  <strong>    Diag 1er Niveau     </strong>              </text>
-<input type="text" style="width:300px;height:50px;border-radius: 15px;margin-left: 10px;" >
+<input type="text" style="width:300px;height:50px;border-radius: 15px;margin-left: 10px;" id="Diag">
 </div>
 <div style="margin-left: 400px;margin-top: 30px;">
     <text style="font-size: 30px;color:slategrey;">  <strong>    Date prévue de livraison /intervention     </strong>              </text>
-<input type="date" style="width:300px;height:50px;border-radius: 15px;margin-left: 10px;" >
+<input type="date" style="width:300px;height:50px;border-radius: 15px;margin-left: 10px;" id="intervention" >
 </div>
-<div style="margin-left: 600px;margin-top: 30px;"><button style="background:transparent;width: 200px;height: 50px;border-radius: 20px;font-size: 20px;">
+<div style="margin-left: 600px;margin-top: 30px;"><button style="background:transparent;width: 200px;height: 50px;border-radius: 20px;font-size: 20px;"
+    onclick="suivant()">
     <strong>   SUIVANT  </strong>        </button></div>
 </body>
 

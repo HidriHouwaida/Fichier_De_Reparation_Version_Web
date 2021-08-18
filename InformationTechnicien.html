@@ -2,6 +2,7 @@
 <html style="background: url(images/h.jpg);background-repeat: no-repeat;background-size: cover; " >
     <head>
         <title>InformationTechnicien</title>
+        <script src="InformationTechnicien.js"></script>
     </head>
     <body>
         <image src="images/menu.png" style="width:100px;height:80px"></image>
@@ -10,25 +11,26 @@
         </div>
         <div style="margin-left: 250px;margin-top: 10px;">
             <text style="font-size: 30px;color:slategrey;">  <strong>    Technicien     </strong>              </text>
-        <input type="text" style="width:300px;height:50px;border-radius: 15px;margin-left: 140px;" >
+        <input type="text" style="width:300px;height:50px;border-radius: 15px;margin-left: 140px;" id="technicien">
         </div>
         <div style="margin-left: 250px;margin-top: 30px;">
             <text style="font-size: 30px;color:slategrey;">  <strong>    Aide Technicien     </strong>              </text>
-        <input type="text" style="width:300px;height:50px;border-radius: 15px;margin-left: 80px;" >
+        <input type="text" style="width:300px;height:50px;border-radius: 15px;margin-left: 80px;" id="Aide">
         </div>
         <div style="margin-left: 250px;margin-top: 30px;">
             <text style="font-size: 30px;color:slategrey;">  <strong>    Début Réparation     </strong>              </text>
-        <input type="date" style="width:300px;height:50px;border-radius: 15px;margin-left: 60px;" >
+        <input type="date" style="width:300px;height:50px;border-radius: 15px;margin-left: 60px;" id="debut">
         </div>
         <div style="margin-left: 250px;margin-top: 30px;">
             <text style="font-size: 30px;color:slategrey;">  <strong>    Fin Réparation     </strong>              </text>
-        <input type="date" style="width:300px;height:50px;border-radius: 15px;margin-left: 90px;" >
+        <input type="date" style="width:300px;height:50px;border-radius: 15px;margin-left: 90px;" id="Fin">
         </div>
         <div style="margin-left: 250px;margin-top: 30px;">
             <text style="font-size: 30px;color:slategrey;">  <strong>    Détail Réparation     </strong>              </text>
-        <input type="text" style="width:300px;height:50px;border-radius: 15px;margin-left: 50px;" >
+        <input type="text" style="width:300px;height:50px;border-radius: 15px;margin-left: 50px;" id="detail" >
         </div>
-        <div style="margin-left: 600px;margin-top: 30px;"><button style="background:transparent;width: 200px;height: 50px;border-radius: 20px;font-size: 20px;">
+        <div style="margin-left: 600px;margin-top: 30px;"><button style="background:transparent;width: 200px;height: 50px;border-radius: 20px;font-size: 20px;"
+            onclick="suivant()">
             <strong>   SUIVANT  </strong>        </button></div>
     </body>
 </html>
